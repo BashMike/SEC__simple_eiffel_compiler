@@ -8,6 +8,7 @@ create
 feature
     make
     do
+        io.put_string("HELLO, WORLD!");
     end
 end
 -- EOF
@@ -57,29 +58,12 @@ end
 class
     E
 
-inherit
-    G
-
 end
 -- EOF
 
 -- f.e
 class
     F
-
-inherit
-    B
-
-end
--- EOF
-
--- g.e
-class
-    G
-
-inherit
-    A
-    C
 
 end
 -- EOF

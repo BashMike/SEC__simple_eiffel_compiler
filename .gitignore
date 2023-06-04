@@ -9,3 +9,4 @@ bin/output_tree.dot.png
 bin/output_tree.png
 bin/sec
 bin/output_tree.dot
+CMakeLists.txt.*
